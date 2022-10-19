@@ -1,12 +1,12 @@
 # AL-AI001notCC
 
-**Abstract:** *Basic study focused on various terms for prompt use relating to cinema/photography. Intended to serve as an outline for a more formal approach on cinematic aesthetics. Parallel goal is beauty through simplicity.*
+**Abstract:** *Draft study focused on various terms for prompt use relating to cinema and/or photography. Intended only to serve as an outline for a more formal approach on cinematic aesthetics. Parallel goal is beauty through simplicity.*
 
 **Cat#**: AL-AI001notCC
 
 **Status:** In progress
 
-**Tags:** AI, Prompt Engineering, StableDiffusion, Study Outline, euler_a
+**Tags:** AI, Prompt Engineering, StableDiffusion, Draft Study, euler_a
 
 **Notion Link**: [Notion Link](website)
 
