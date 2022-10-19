@@ -8,7 +8,7 @@
 
 **Tags:** AI, Prompt Engineering, StableDiffusion, Draft Study, euler_a
 
-**Notion Link**: [Notion Link](website)
+**Notion Link**: Notion Link
 
 ---
 
