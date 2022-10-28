@@ -83,7 +83,7 @@ trees; film still; dialogue
 trees; film still; diegetic
 trees; film still; dissolve
 trees; film still; documentary
-trees; film still; dolly 
+trees; film still; dolly 
 trees; film still; double exposure
 trees; film still; double take
 trees; film still; drive-in
