@@ -1,4 +1,4 @@
-# make a diff. version that accounts for various AD/BC combinations
+# make a diff. version that accounts for various AD/BC combinations and extends out
 
 1970
 1971
