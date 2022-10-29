@@ -1,0 +1,853 @@
+Academic or educational problem
+Acculturation difficulty
+Acute stress disorder
+Adjustment disorder
+Adjustment disorder, Unspecified
+Adjustment disorder, With anxiety
+Adjustment disorder, With depressed mood
+Adjustment disorder, With disturbance of conduct
+Adjustment disorder, With mixed anxiety and depressed mood
+Adjustment disorder, With mixed disturbance of emotions and conduct
+Adult antisocial behavior
+Adult-onset fluency disorder
+Agoraphobia
+Alcohol intoxication
+Alcohol intoxication delirium
+Alcohol intoxication delirium, With mild use disorder
+Alcohol intoxication delirium, With moderate or severe use disorder
+Alcohol intoxication delirium, Without use disorder
+Alcohol intoxication, With mild use disorder
+Alcohol intoxication, With moderate or severe use disorder
+Alcohol intoxication, Without use disorder
+Alcohol use disorder
+Alcohol use disorder, Mild
+Alcohol use disorder, Moderate
+Alcohol use disorder, Severe
+Alcohol withdrawal
+Alcohol withdrawal delirium
+Alcohol withdrawal, With perceptual disturbances
+Alcohol withdrawal, Without perceptual disturbances
+Alcohol-induced anxiety disorder
+Alcohol-induced anxiety disorder, With mild use disorder
+Alcohol-induced anxiety disorder, With moderate or severe use disorder
+Alcohol-induced anxiety disorder, Without use disorder
+Alcohol-induced bipolar and related disorder
+Alcohol-induced bipolar and related disorder, With mild use disorder
+Alcohol-induced bipolar and related disorder, With moderate or severe use disorder
+Alcohol-induced bipolar and related disorder, Without use disorder
+Alcohol-induced depressive disorder
+Alcohol-induced depressive disorder, With mild use disorder
+Alcohol-induced depressive disorder, With moderate or severe use disorder
+Alcohol-induced depressive disorder, Without use disorder
+Alcohol-induced major neurocognitive disorder, Amnestic confabulatory type
+Alcohol-induced major neurocognitive disorder, Amnestic confabulatory type, With moderate or severe use disorder
+Alcohol-induced major neurocognitive disorder, Amnestic confabulatory type, Without use disorder
+Alcohol-induced major neurocognitive disorder, Nonamnestic confabulatory type
+Alcohol-induced major neurocognitive disorder, Nonamnestic confabulatory type, With moderate or severe use disorder
+Alcohol-induced major neurocognitive disorder, Nonamnestic confabulatory type, Without use disorder
+Alcohol-induced mild neurocognitive disorder
+Alcohol-induced mild neurocognitive disorder, With moderate or severe use disorder
+Alcohol-induced mild neurocognitive disorder, Without use disorder
+Alcohol-induced psychotic disorder
+Alcohol-induced psychotic disorder, With mild use disorder
+Alcohol-induced psychotic disorder, With moderate or severe use disorder
+Alcohol-induced psychotic disorder, Without use disorder
+Alcohol-induced sexual dysfunction
+Alcohol-induced sexual dysfunction, With mild use disorder
+Alcohol-induced sexual dysfunction, With moderate or severe use disorder
+Alcohol-induced sexual dysfunction, Without use disorder
+Alcohol-induced sleep disorder
+Alcohol-induced sleep disorder, With mild use disorder
+Alcohol-induced sleep disorder, With moderate or severe use disorder
+Alcohol-induced sleep disorder, Without use disorder
+Amphetamine (or other stimulant) intoxication delirium
+Amphetamine (or other stimulant) intoxication delirium, With mild use disorder
+Amphetamine (or other stimulant) intoxication delirium, With moderate or severe use disorder
+Amphetamine (or other stimulant) intoxication delirium, Without use disorder
+Amphetamine (or other stimulant)-induced anxiety disorder
+Amphetamine (or other stimulant)-induced anxiety disorder, With mild use disorder
+Amphetamine (or other stimulant)-induced anxiety disorder, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced anxiety disorder, Without use disorder
+Amphetamine (or other stimulant)-induced bipolar and related disorder
+Amphetamine (or other stimulant)-induced bipolar and related disorder, With mild use disorder
+Amphetamine (or other stimulant)-induced bipolar and related disorder, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced bipolar and related disorder, Without use disorder
+Amphetamine (or other stimulant)-induced delirium
+Amphetamine (or other stimulant)-induced depressive disorder
+Amphetamine (or other stimulant)-induced depressive disorder, With mild use disorder
+Amphetamine (or other stimulant)-induced depressive disorder, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced depressive disorder, Without use disorder
+Amphetamine (or other stimulant)-induced obsessive-compulsive and related disorder
+Amphetamine (or other stimulant)-induced obsessive-compulsive and related disorder, With mild use disorder
+Amphetamine (or other stimulant)-induced obsessive-compulsive and related disorder, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced obsessive-compulsive and related disorder, Without use disorder
+Amphetamine (or other stimulant)-induced psychotic disorder
+Amphetamine (or other stimulant)-induced psychotic disorder, With mild use disorder
+Amphetamine (or other stimulant)-induced psychotic disorder, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced psychotic disorder, Without use disorder
+Amphetamine (or other stimulant)-induced sexual dysfunction
+Amphetamine (or other stimulant)-induced sexual dysfunction, With mild use disorder
+Amphetamine (or other stimulant)-induced sexual dysfunction, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced sexual dysfunction, Without use disorder
+Amphetamine (or other stimulant)-induced sleep disorder
+Amphetamine (or other stimulant)-induced sleep disorder, With mild use disorder
+Amphetamine (or other stimulant)-induced sleep disorder, With moderate or severe use disorder
+Amphetamine (or other stimulant)-induced sleep disorder, Without use disorder
+Amphetamine or other stimulant intoxication
+Amphetamine or other stimulant intoxication, With perceptual disturbances
+Amphetamine or other stimulant intoxication, With perceptual disturbances, With mild use disorder
+Amphetamine or other stimulant intoxication, With perceptual disturbances, With moderate or severe use disorder
+Amphetamine or other stimulant intoxication, With perceptual disturbances, Without use disorder
+Amphetamine or other stimulant intoxication, Without perceptual disturbances
+Amphetamine or other stimulant intoxication, Without perceptual disturbances, With mild use disorder
+Amphetamine or other stimulant intoxication, Without perceptual disturbances, With moderate or severe use disorder
+Amphetamine or other stimulant intoxication, Without perceptual disturbances, Without use disorder
+Amphetamine or other stimulant withdrawal
+Amphetamine-type substance use disorder
+Amphetamine-type substance use disorder, Mild
+Amphetamine-type substance use disorder, Moderate
+Amphetamine-type substance use disorder, Severe
+Anorexia nervosa
+Anorexia nervosa, Binge-eating/purging type
+Anorexia nervosa, Restricting type
+Antidepressant discontinuation syndrome
+Antidepressant discontinuation syndrome, Initial encounter
+Antidepressant discontinuation syndrome, Sequelae
+Antidepressant discontinuation syndrome, Subsequent encounter
+Antisocial personality disorder
+Anxiety disorder due to another medical condition
+Attention-deficit/hyperactivity disorder
+Attention-deficit/hyperactivity disorder, Combined presentation
+Attention-deficit/hyperactivity disorder, Predominantly hyperactive/impulsive presentation
+Attention-deficit/hyperactivity disorder, Predominantly inattentive presentation
+Autism spectrum disorder
+Autosomal dominant cerebellar ataxia, deafness, and narcolepsy
+Autosomal dominant narcolepsy, obesity, and type 2 diabetes
+Avoidant personality disorder
+Avoidant/restrictive food intake disorder
+Binge-eating disorder
+Bipolar and related disorder due to another medical condition
+Bipolar and related disorder due to another medical condition, With manic features
+Bipolar and related disorder due to another medical condition, With manic- or hypomanic-like episodes
+Bipolar and related disorder due to another medical condition, With mixed features
+Bipolar I disorder, Current or most recent episode depressed
+Bipolar I disorder, Current or most recent episode depressed, In full remission
+Bipolar I disorder, Current or most recent episode depressed, In partial remission
+Bipolar I disorder, Current or most recent episode depressed, Mild
+Bipolar I disorder, Current or most recent episode depressed, Moderate
+Bipolar I disorder, Current or most recent episode depressed, Severe
+Bipolar I disorder, Current or most recent episode depressed, Unspecified
+Bipolar I disorder, Current or most recent episode depressed, With psychotic features
+Bipolar I disorder, Current or most recent episode hypomanic
+Bipolar I disorder, Current or most recent episode hypomanic, In full remission
+Bipolar I disorder, Current or most recent episode hypomanic, In partial remission
+Bipolar I disorder, Current or most recent episode hypomanic, Unspecified
+Bipolar I disorder, Current or most recent episode manic
+Bipolar I disorder, Current or most recent episode manic, In full remission
+Bipolar I disorder, Current or most recent episode manic, In partial remission
+Bipolar I disorder, Current or most recent episode manic, Mild
+Bipolar I disorder, Current or most recent episode manic, Moderate
+Bipolar I disorder, Current or most recent episode manic, Severe
+Bipolar I disorder, Current or most recent episode manic, Unspecified
+Bipolar I disorder, Current or most recent episode manic, With psychotic features
+Bipolar I disorder, Current or most recent episode unspecified
+Bipolar II disorder
+Body dysmorphic disorder
+Borderline intellectual functioning
+Borderline personality disorder
+Brief psychotic disorder
+Bulimia nervosa
+Caffeine intoxication
+Caffeine withdrawal
+Caffeine-induced anxiety disorder
+Caffeine-induced anxiety disorder, With mild use disorder
+Caffeine-induced anxiety disorder, With moderate or severe use disorder
+Caffeine-induced anxiety disorder, Without use disorder
+Caffeine-induced sleep disorder
+Caffeine-induced sleep disorder, With mild use disorder
+Caffeine-induced sleep disorder, With moderate or severe use disorder
+Caffeine-induced sleep disorder, Without use disorder
+Cannabis intoxication
+Cannabis intoxication delirium
+Cannabis intoxication delirium, With mild use disorder
+Cannabis intoxication delirium, With moderate or severe use disorder
+Cannabis intoxication delirium, Without use disorder
+Cannabis intoxication, With perceptual disturbances
+Cannabis intoxication, With perceptual disturbances, With mild use disorder
+Cannabis intoxication, With perceptual disturbances, With moderate or severe use disorder
+Cannabis intoxication, With perceptual disturbances, Without use disorder
+Cannabis intoxication, Without perceptual disturbances
+Cannabis intoxication, Without perceptual disturbances, With mild use disorder
+Cannabis intoxication, Without perceptual disturbances, With moderate or severe use disorder
+Cannabis intoxication, Without perceptual disturbances, Without use disorder
+Cannabis use disorder
+Cannabis use disorder, Mild
+Cannabis use disorder, Moderate
+Cannabis use disorder, Severe
+Cannabis withdrawal
+Cannabis-induced anxiety disorder
+Cannabis-induced anxiety disorder, With mild use disorder
+Cannabis-induced anxiety disorder, With moderate or severe use disorder
+Cannabis-induced anxiety disorder, Without use disorder
+Cannabis-induced psychotic disorder
+Cannabis-induced psychotic disorder, With mild use disorder
+Cannabis-induced psychotic disorder, With moderate or severe use disorder
+Cannabis-induced psychotic disorder, Without use disorder
+Cannabis-induced sleep disorder
+Cannabis-induced sleep disorder, With mild use disorder
+Cannabis-induced sleep disorder, With moderate or severe use disorder
+Cannabis-induced sleep disorder, Without use disorder
+Catatonia associated with another mental disorder (catatonia specifier)
+Catatonic disorder due to another medical condition
+Central sleep apnea
+Central sleep apnea comorbid with opioid use
+Cheyne-Stokes breathing
+Circadian rhythm sleep-wake disorders
+Circadian rhythm sleep-wake disorders, Advanced sleep phase type
+Circadian rhythm sleep-wake disorders, Delayed sleep phase type
+Circadian rhythm sleep-wake disorders, Irregular sleep-wake type
+Circadian rhythm sleep-wake disorders, Non-24-hour sleep-wake type
+Circadian rhythm sleep-wake disorders, Shift work type
+Circadian rhythm sleep-wake disorders, Unspecified type
+Cocaine intoxication
+Cocaine intoxication delirium
+Cocaine intoxication delirium, With mild use disorder
+Cocaine intoxication delirium, With moderate or severe use disorder
+Cocaine intoxication delirium, Without use disorder
+Cocaine intoxication, With perceptual disturbances
+Cocaine intoxication, With perceptual disturbances, With mild use disorder
+Cocaine intoxication, With perceptual disturbances, With moderate or severe use disorder
+Cocaine intoxication, With perceptual disturbances, Without use disorder
+Cocaine intoxication, Without perceptual disturbances
+Cocaine intoxication, Without perceptual disturbances, With mild use disorder
+Cocaine intoxication, Without perceptual disturbances, With moderate or severe use disorder
+Cocaine intoxication, Without perceptual disturbances, Without use disorder
+Cocaine use disorder
+Cocaine use disorder, Mild
+Cocaine use disorder, Moderate
+Cocaine use disorder, Severe
+Cocaine withdrawal
+Cocaine-induced anxiety disorder
+Cocaine-induced anxiety disorder, With mild use disorder
+Cocaine-induced anxiety disorder, With moderate or severe use disorder
+Cocaine-induced anxiety disorder, Without use disorder
+Cocaine-induced bipolar and related disorder
+Cocaine-induced bipolar and related disorder, With mild use disorder
+Cocaine-induced bipolar and related disorder, With moderate or severe use disorder
+Cocaine-induced bipolar and related disorder, Without use disorder
+Cocaine-induced depressive disorder
+Cocaine-induced depressive disorder, With mild use disorder
+Cocaine-induced depressive disorder, With moderate or severe use disorder
+Cocaine-induced depressive disorder, Without use disorder
+Cocaine-induced obsessive-compulsive and related disorder
+Cocaine-induced obsessive-compulsive and related disorder, With mild use disorder
+Cocaine-induced obsessive-compulsive and related disorder, With moderate or severe use disorder
+Cocaine-induced obsessive-compulsive and related disorder, Without use disorder
+Cocaine-induced psychotic disorder
+Cocaine-induced psychotic disorder, With mild use disorder
+Cocaine-induced psychotic disorder, With moderate or severe use disorder
+Cocaine-induced psychotic disorder, Without use disorder
+Cocaine-induced sexual dysfunction
+Cocaine-induced sexual dysfunction, With mild use disorder
+Cocaine-induced sexual dysfunction, With moderate or severe use disorder
+Cocaine-induced sexual dysfunction, Without use disorder
+Cocaine-induced sleep disorder
+Cocaine-induced sleep disorder, With mild use disorder
+Cocaine-induced sleep disorder, With moderate or severe use disorder
+Cocaine-induced sleep disorder, Without use disorder
+Comorbid sleep-related hypoventilation
+Conduct disorder
+Conduct disorder, Unspecified onset
+Congenital central alveolar hypoventilation
+Conversion disorder (functional neurological symptom disorder)
+Conversion disorder (functional neurological symptom disorder), With abnormal movement
+Conversion disorder (functional neurological symptom disorder), With anesthesia or sensory loss
+Conversion disorder (functional neurological symptom disorder), With attacks or seizures
+Conversion disorder (functional neurological symptom disorder), With mixed symptoms
+Conversion disorder (functional neurological symptom disorder), With special sensory symptoms
+Conversion disorder (functional neurological symptom disorder), With speech symptoms
+Conversion disorder (functional neurological symptom disorder), With swallowing symptoms
+Conversion disorder (functional neurological symptom disorder), With weakness/paralysis
+Conviction in civil or criminal proceedings without imprisonment
+Cyclothymic disorder
+Delayed ejaculation
+Delirium
+Delirium due to another medical condition
+Delirium due to multiple etiologies
+Delusional disorder
+Dependent personality disorder
+Depersonalization/derealization disorder
+Depressive disorder due to another medical condition
+Depressive disorder due to another medical condition, With depressive features
+Depressive disorder due to another medical condition, With major depressive-like episode
+Depressive disorder due to another medical condition, With mixed features
+Developmental coordination disorder
+Discord with neighbor, lodger, or landlord
+Discord with social service provider, including probation officer, case manager, or social services worker
+Disinhibited social engagement disorder
+Disruption of family by separation or divorce
+Disruptive mood dysregulation disorder
+Dissociative amnesia
+Dissociative amnesia, with dissociative fugue
+Dissociative identity disorder
+Encopresis
+Enuresis
+Erectile disorder
+Excoriation (skin-picking) disorder
+Exhibitionistic disorder
+Exposure to disaster, war, or other hostilities
+Extreme poverty
+Factitious disorder
+Female orgasmic disorder
+Female sexual interest/arousal disorder
+Fetishistic disorder
+Frotteuristic disorder
+Gambling disorder
+Gender dysphoria
+Generalized anxiety disorder
+Genito-pelvic pain/penetration disorder
+Global developmental delay
+Hallucinogen persisting perception disorder
+High expressed emotion level within family
+Histrionic personality disorder
+Hoarding disorder
+Homelessness
+Hypersomnolence disorder
+Idiopathic central sleep apnea
+Idiopathic hypoventilation
+Illness anxiety disorder
+Imprisonment or other incarceration
+Inadequate housing
+Inhalant intoxication
+Inhalant intoxication delirium
+Inhalant intoxication delirium, With mild use disorder
+Inhalant intoxication delirium, With moderate or severe use disorder
+Inhalant intoxication delirium, Without use disorder
+Inhalant intoxication, With mild use disorder
+Inhalant intoxication, With moderate or severe use disorder
+Inhalant intoxication, Without use disorder
+Inhalant use disorder
+Inhalant use disorder, Mild
+Inhalant use disorder, Moderate
+Inhalant use disorder, Severe
+Inhalant-induced anxiety disorder
+Inhalant-induced anxiety disorder, With mild use disorder
+Inhalant-induced anxiety disorder, With moderate or severe use disorder
+Inhalant-induced anxiety disorder, Without use disorder
+Inhalant-induced depressive disorder
+Inhalant-induced depressive disorder, With mild use disorder
+Inhalant-induced depressive disorder, With moderate or severe use disorder
+Inhalant-induced depressive disorder, Without use disorder
+Inhalant-induced major neurocognitive disorder
+Inhalant-induced major neurocognitive disorder, With mild use disorder
+Inhalant-induced major neurocognitive disorder, With moderate or severe use disorder
+Inhalant-induced major neurocognitive disorder, Without use disorder
+Inhalant-induced mild neurocognitive disorder
+Inhalant-induced mild neurocognitive disorder, With mild use disorder
+Inhalant-induced mild neurocognitive disorder, With moderate or severe use disorder
+Inhalant-induced mild neurocognitive disorder, Without use disorder
+Inhalant-induced psychotic disorder
+Inhalant-induced psychotic disorder, With mild use disorder
+Inhalant-induced psychotic disorder, With moderate or severe use disorder
+Inhalant-induced psychotic disorder, Without use disorder
+Insomnia disorder
+Insufficient social insurance or welfare support
+Intellectual disability (intellectual developmental disorder)
+Intellectual disability (intellectual developmental disorder), Mild
+Intellectual disability (intellectual developmental disorder), Moderate
+Intellectual disability (intellectual developmental disorder), Profound
+Intellectual disability (intellectual developmental disorder), Severe
+Intermittent explosive disorder
+Kleptomania
+Lack of adequate food or safe drinking water
+Language disorder
+Low income
+Major depressive disorder, Recurrent episode
+Major depressive disorder, Recurrent episode, In full remission
+Major depressive disorder, Recurrent episode, In partial remission
+Major depressive disorder, Recurrent episode, Mild
+Major depressive disorder, Recurrent episode, Moderate
+Major depressive disorder, Recurrent episode, Severe
+Major depressive disorder, Recurrent episode, Unspecified
+Major depressive disorder, Recurrent episode, With psychotic features
+Major depressive disorder, Single episode
+Major depressive disorder, Single episode, In full remission
+Major depressive disorder, Single episode, In partial remission
+Major depressive disorder, Single episode, Mild
+Major depressive disorder, Single episode, Moderate
+Major depressive disorder, Single episode, Severe
+Major depressive disorder, Single episode, Unspecified
+Major depressive disorder, Single episode, With psychotic features
+Major frontotemporal neurocognitive disorder, Possible
+Major frontotemporal neurocognitive disorder, Probable
+Major frontotemporal neurocognitive disorder, Probable, With behavioral disturbance
+Major frontotemporal neurocognitive disorder, Probable, Without behavioral disturbance
+Major neurocognitive disorder due to Alzheimer’s disease, Possible
+Major neurocognitive disorder due to Alzheimer’s disease, Probable
+Major neurocognitive disorder due to Alzheimer’s disease, Probable, With behavioral disturbance
+Major neurocognitive disorder due to Alzheimer’s disease, Probable, Without behavioral disturbance
+Major neurocognitive disorder due to another medical condition
+Major neurocognitive disorder due to another medical condition, With behavioral disturbance
+Major neurocognitive disorder due to another medical condition, Without behavioral disturbance
+Major neurocognitive disorder due to HIV infection
+Major neurocognitive disorder due to HIV infection, With behavioral disturbance
+Major neurocognitive disorder due to HIV infection, Without behavioral disturbance
+Major neurocognitive disorder due to Huntington’s disease
+Major neurocognitive disorder due to Huntington’s disease, With behavioral disturbance
+Major neurocognitive disorder due to Huntington’s disease, Without behavioral disturbance
+Major neurocognitive disorder due to multiple etiologies
+Major neurocognitive disorder due to multiple etiologies, With behavioral disturbance
+Major neurocognitive disorder due to multiple etiologies, Without behavioral disturbance
+Major neurocognitive disorder due to Parkinson’s disease, Possible
+Major neurocognitive disorder due to Parkinson’s disease, Probable
+Major neurocognitive disorder due to Parkinson’s disease, Probable, With behavioral disturbance
+Major neurocognitive disorder due to Parkinson’s disease, Probable, Without behavioral disturbance
+Major neurocognitive disorder due to prion disease
+Major neurocognitive disorder due to prion disease, With behavioral disturbance
+Major neurocognitive disorder due to prion disease, Without behavioral disturbance
+Major neurocognitive disorder due to traumatic brain injury
+Major neurocognitive disorder due to traumatic brain injury, With behavioral disturbance
+Major neurocognitive disorder due to traumatic brain injury, Without behavioral disturbance
+Major neurocognitive disorder with Lewy bodies, Possible
+Major neurocognitive disorder with Lewy bodies, Probable
+Major neurocognitive disorder with Lewy bodies, Probable, With behavioral disturbance
+Major neurocognitive disorder with Lewy bodies, Probable, Without behavioral disturbance
+Major vascular neurocognitive disorder, Possible
+Major vascular neurocognitive disorder, Probable
+Major vascular neurocognitive disorder, Probable, With behavioral disturbance
+Major vascular neurocognitive disorder, Probable, Without behavioral disturbance
+Male hypoactive sexual desire disorder
+Malingering
+Medication-induced acute akathisia
+Medication-induced acute dystonia
+Medication-induced delirium
+Medication-induced delirium
+Medication-induced postural tremor
+Mild frontotemporal neurocognitive disorder
+Mild neurocognitive disorder due to Alzheimer’s disease
+Mild neurocognitive disorder due to another medical condition
+Mild neurocognitive disorder due to HIV infection
+Mild neurocognitive disorder due to Huntington’s disease
+Mild neurocognitive disorder due to multiple etiologies
+Mild neurocognitive disorder due to Parkinson’s disease
+Mild neurocognitive disorder due to prion disease
+Mild neurocognitive disorder due to traumatic brain injury
+Mild neurocognitive disorder with Lewy bodies
+Mild vascular neurocognitive disorder
+Narcissistic personality disorder
+Narcolepsy
+Narcolepsy secondary to another medical condition
+Narcolepsy with cataplexy but without hypocretin deficiency
+Narcolepsy without cataplexy but with hypocretin deficiency
+Neuroleptic malignant syndrome
+Neuroleptic-induced parkinsonism
+Nightmare disorder
+No Diagnosis or Condition on Axis I / No Diagnosis on Axis II [DSM-IV]
+Nonadherence to medical treatment
+Non-rapid eye movement sleep arousal disorders
+Non-rapid eye movement sleep arousal disorders, Sleep terror type
+Non-rapid eye movement sleep arousal disorders, Sleepwalking type
+Obsessive-compulsive and related disorder due to another medical condition
+Obsessive-compulsive disorder
+Obsessive-compulsive personality disorder
+Obstructive sleep apnea hypopnea
+Opioid intoxication
+Opioid intoxication delirium
+Opioid intoxication delirium, With mild use disorder
+Opioid intoxication delirium, With moderate or severe use disorder
+Opioid intoxication delirium, Without use disorder
+Opioid intoxication, With perceptual disturbances
+Opioid intoxication, With perceptual disturbances, With mild use disorder
+Opioid intoxication, With perceptual disturbances, With moderate or severe use disorder
+Opioid intoxication, With perceptual disturbances, Without use disorder
+Opioid intoxication, Without perceptual disturbances
+Opioid intoxication, Without perceptual disturbances, With mild use disorder
+Opioid intoxication, Without perceptual disturbances, With moderate or severe use disorder
+Opioid intoxication, Without perceptual disturbances, Without use disorder
+Opioid use disorder
+Opioid use disorder, Mild
+Opioid use disorder, Moderate
+Opioid use disorder, Severe
+Opioid withdrawal
+Opioid withdrawal delirium
+Opioid-induced anxiety disorder
+Opioid-induced anxiety disorder, With mild use disorder
+Opioid-induced anxiety disorder, With moderate or severe use disorder
+Opioid-induced anxiety disorder, Without use disorder
+Opioid-induced delirium
+Opioid-induced depressive disorder
+Opioid-induced depressive disorder, With mild use disorder
+Opioid-induced depressive disorder, With moderate or severe use disorder
+Opioid-induced depressive disorder, Without use disorder
+Opioid-induced sexual dysfunction
+Opioid-induced sexual dysfunction, With mild use disorder
+Opioid-induced sexual dysfunction, With moderate or severe use disorder
+Opioid-induced sexual dysfunction, Without use disorder
+Opioid-induced sleep disorder
+Opioid-induced sleep disorder, With mild use disorder
+Opioid-induced sleep disorder, With moderate or severe use disorder
+Opioid-induced sleep disorder, Without use disorder
+Oppositional defiant disorder
+Other (or unknown) substance intoxication
+Other (or unknown) substance intoxication delirium
+Other (or unknown) substance intoxication delirium, With mild use disorder
+Other (or unknown) substance intoxication delirium, With moderate or severe use disorder
+Other (or unknown) substance intoxication delirium, Without use disorder
+Other (or unknown) substance intoxication, With mild use disorder
+Other (or unknown) substance intoxication, With moderate or severe use disorder
+Other (or unknown) substance intoxication, Without use disorder
+Other (or unknown) substance use disorder
+Other (or unknown) substance use disorder, Mild
+Other (or unknown) substance use disorder, Moderate
+Other (or unknown) substance use disorder, Severe
+Other (or unknown) substance withdrawal
+Other (or unknown) substance withdrawal delirium
+Other (or unknown) substance-induced anxiety disorder
+Other (or unknown) substance-induced anxiety disorder, With mild use disorder
+Other (or unknown) substance-induced anxiety disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced anxiety disorder, Without use disorder
+Other (or unknown) substance-induced bipolar and related disorder
+Other (or unknown) substance-induced bipolar and related disorder, With mild use disorder
+Other (or unknown) substance-induced bipolar and related disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced bipolar and related disorder, Without use disorder
+Other (or unknown) substance-induced delirium
+Other (or unknown) substance-induced depressive disorder
+Other (or unknown) substance-induced depressive disorder, With mild use disorder
+Other (or unknown) substance-induced depressive disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced depressive disorder, Without use disorder
+Other (or unknown) substance-induced major neurocognitive disorder
+Other (or unknown) substance-induced major neurocognitive disorder, With mild use disorder
+Other (or unknown) substance-induced major neurocognitive disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced major neurocognitive disorder, Without use disorder
+Other (or unknown) substance-induced mild neurocognitive disorder
+Other (or unknown) substance-induced mild neurocognitive disorder, With mild use disorder
+Other (or unknown) substance-induced mild neurocognitive disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced mild neurocognitive disorder, Without use disorder
+Other (or unknown) substance-induced obsessive-compulsive and related disorder
+Other (or unknown) substance-induced obsessive-compulsive and related disorder, With mild use disorder
+Other (or unknown) substance-induced obsessive-compulsive and related disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced obsessive-compulsive and related disorder, Without use disorder
+Other (or unknown) substance-induced psychotic disorder
+Other (or unknown) substance-induced psychotic disorder, With mild use disorder
+Other (or unknown) substance-induced psychotic disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced psychotic disorder, Without use disorder
+Other (or unknown) substance-induced sexual dysfunction
+Other (or unknown) substance-induced sexual dysfunction, With mild use disorder
+Other (or unknown) substance-induced sexual dysfunction, With moderate or severe use disorder
+Other (or unknown) substance-induced sexual dysfunction, Without use disorder
+Other (or unknown) substance-induced sleep disorder
+Other (or unknown) substance-induced sleep disorder, With mild use disorder
+Other (or unknown) substance-induced sleep disorder, With moderate or severe use disorder
+Other (or unknown) substance-induced sleep disorder, Without use disorder
+Other adverse effect of medication
+Other adverse effect of medication, Initial encounter
+Other adverse effect of medication, Sequelae
+Other adverse effect of medication, Subsequent encounter
+Other counseling or consultation
+Other hallucinogen intoxication
+Other hallucinogen intoxication delirium
+Other hallucinogen intoxication delirium, With mild use disorder
+Other hallucinogen intoxication delirium, With moderate or severe use disorder
+Other hallucinogen intoxication delirium, Without use disorder
+Other hallucinogen intoxication, With mild use disorder
+Other hallucinogen intoxication, With moderate or severe use disorder
+Other hallucinogen intoxication, Without use disorder
+Other hallucinogen use disorder
+Other hallucinogen use disorder, Mild
+Other hallucinogen use disorder, Moderate
+Other hallucinogen use disorder, Severe
+Other hallucinogen-induced anxiety disorder
+Other hallucinogen-induced anxiety disorder, With mild use disorder
+Other hallucinogen-induced anxiety disorder, With moderate or severe use disorder
+Other hallucinogen-induced anxiety disorder, Without use disorder
+Other hallucinogen-induced bipolar and related disorder
+Other hallucinogen-induced bipolar and related disorder, With mild use disorder
+Other hallucinogen-induced bipolar and related disorder, With moderate or severe use disorder
+Other hallucinogen-induced bipolar and related disorder, Without use disorder
+Other hallucinogen-induced depressive disorder
+Other hallucinogen-induced depressive disorder, With mild use disorder
+Other hallucinogen-induced depressive disorder, With moderate or severe use disorder
+Other hallucinogen-induced depressive disorder, Without use disorder
+Other hallucinogen-induced psychotic disorder
+Other hallucinogen-induced psychotic disorder, With mild use disorder
+Other hallucinogen-induced psychotic disorder, With moderate or severe use disorder
+Other hallucinogen-induced psychotic disorder, Without use disorder
+Other medication-induced movement disorder
+Other medication-induced parkinsonism
+Other or unspecified stimulant use disorder
+Other or unspecified stimulant use disorder, Mild
+Other or unspecified stimulant use disorder, Moderate
+Other or unspecified stimulant use disorder, Severe
+Other personal history of psychological trauma
+Other personal risk factors
+Other problem related to employment
+Other problem related to psychosocial circumstances
+Other specified anxiety disorder
+Other specified attention-deficit/hyperactivity disorder
+Other specified bipolar and related disorder
+Other specified delirium
+Other specified depressive disorder
+Other specified disruptive, impulse-control, and conduct disorder
+Other specified dissociative disorder
+Other specified elimination disorder
+Other specified elimination disorder, With fecal symptoms
+Other specified elimination disorder, With urinary symptoms
+Other specified feeding or eating disorder
+Other specified gender dysphoria
+Other specified hypersomnolence disorder
+Other specified insomnia disorder
+Other specified mental disorder
+Other specified mental disorder due to another medical condition
+Other specified neurodevelopmental disorder
+Other specified obsessive-compulsive and related disorder
+Other specified paraphilic disorder
+Other specified personality disorder
+Other specified schizophrenia spectrum and other psychotic disorder
+Other specified sexual dysfunction
+Other specified sleep-wake disorder
+Other specified somatic symptom and related disorder
+Other specified tic disorder
+Other specified trauma- and stressor-related disorder
+Overweight or obesity
+Panic attack specifier
+Panic disorder
+Paranoid personality disorder
+Persistent (chronic) motor or vocal tic disorder
+Persistent depressive disorder (dysthymia)
+Personal history (past history) of neglect in childhood
+Personal history (past history) of physical abuse in childhood
+Personal history (past history) of psychological abuse in childhood
+Personal history (past history) of spouse or partner neglect
+Personal history (past history) of spouse or partner psychological abuse
+Personal history of military deployment
+Personal history of self-harm
+Personality change due to another medical condition
+Phase of life problem
+Phencyclidine intoxication
+Phencyclidine intoxication delirium
+Phencyclidine intoxication delirium, With mild use disorder
+Phencyclidine intoxication delirium, With moderate or severe use disorder
+Phencyclidine intoxication delirium, Without use disorder
+Phencyclidine intoxication, With mild use disorder
+Phencyclidine intoxication, With moderate or severe use disorder
+Phencyclidine intoxication, Without use disorder
+Phencyclidine use disorder
+Phencyclidine use disorder, Mild
+Phencyclidine use disorder, Moderate
+Phencyclidine use disorder, Severe
+Phencyclidine-induced anxiety disorder
+Phencyclidine-induced anxiety disorder, With mild use disorder
+Phencyclidine-induced anxiety disorder, With moderate or severe use disorder
+Phencyclidine-induced anxiety disorder, Without use disorder
+Phencyclidine-induced bipolar and related disorder
+Phencyclidine-induced bipolar and related disorder, With mild use disorder
+Phencyclidine-induced bipolar and related disorder, With moderate or severe use disorder
+Phencyclidine-induced bipolar and related disorder, Without use disorder
+Phencyclidine-induced depressive disorder
+Phencyclidine-induced depressive disorder, With mild use disorder
+Phencyclidine-induced depressive disorder, With moderate or severe use disorder
+Phencyclidine-induced depressive disorder, Without use disorder
+Phencyclidine-induced psychotic disorder
+Phencyclidine-induced psychotic disorder, With mild use disorder
+Phencyclidine-induced psychotic disorder, With moderate or severe use disorder
+Phencyclidine-induced psychotic disorder, Without use disorder
+Pica
+Pica, In adults
+Posttraumatic stress disorder
+Premature (early) ejaculation
+Premenstrual dysphoric disorder
+Problem related to current military deployment status
+Problem related to lifestyle
+Problem related to living alone
+Problem related to living in a residential institution
+Problems related to multiparity
+Problems related to other legal circumstances
+Problems related to release from prison
+Problems related to unwanted pregnancy
+Provisional tic disorder
+316	F54	Psychological factors affecting other medical conditions
+Psychotic disorder due to another medical condition
+Psychotic disorder due to another medical condition, With delusions
+Psychotic disorder due to another medical condition, With hallucinations
+Pyromania
+Rapid eye movement sleep behavior disorder
+Reactive attachment disorder
+Relationship distress with spouse or intimate partner
+Religious or spiritual problem
+Restless legs syndrome
+Rumination disorder
+Schizoaffective disorder
+Schizoaffective disorder, Bipolar type
+Schizoaffective disorder, Depressive type
+Schizoid personality disorder
+Schizophrenia
+Schizophreniform disorder
+Schizotypal personality disorder
+Sedative, hypnotic, or anxiolytic intoxication
+Sedative, hypnotic, or anxiolytic intoxication delirium
+Sedative, hypnotic, or anxiolytic intoxication delirium, With mild use disorder
+Sedative, hypnotic, or anxiolytic intoxication delirium, With moderate or severe use disorder
+Sedative, hypnotic, or anxiolytic intoxication delirium, Without use disorder
+Sedative, hypnotic, or anxiolytic intoxication, With mild use disorder
+Sedative, hypnotic, or anxiolytic intoxication, With moderate or severe use disorder
+Sedative, hypnotic, or anxiolytic intoxication, Without use disorder
+Sedative, hypnotic, or anxiolytic use disorder
+Sedative, hypnotic, or anxiolytic use disorder, Mild
+Sedative, hypnotic, or anxiolytic use disorder, Moderate
+Sedative, hypnotic, or anxiolytic use disorder, Severe
+Sedative, hypnotic, or anxiolytic withdrawal
+Sedative, hypnotic, or anxiolytic withdrawal delirium
+Sedative, hypnotic, or anxiolytic withdrawal, With perceptual disturbances
+Sedative, hypnotic, or anxiolytic withdrawal, Without perceptual disturbances
+Sedative-, hypnotic-, or anxiolytic-induced anxiety disorder
+Sedative-, hypnotic-, or anxiolytic-induced anxiety disorder, With mild use disorder
+Sedative-, hypnotic-, or anxiolytic-induced anxiety disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced anxiety disorder, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced bipolar and related disorder
+Sedative-, hypnotic-, or anxiolytic-induced bipolar and related disorder, With mild use disorder
+Sedative-, hypnotic-, or anxiolytic-induced bipolar and related disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced bipolar and related disorder, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced delirium
+Sedative-, hypnotic-, or anxiolytic-induced depressive disorder
+Sedative-, hypnotic-, or anxiolytic-induced depressive disorder, With mild use disorder
+Sedative-, hypnotic-, or anxiolytic-induced depressive disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced depressive disorder, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced major neurocognitive disorder
+Sedative-, hypnotic-, or anxiolytic-induced major neurocognitive disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced major neurocognitive disorder, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced mild neurocognitive disorder
+Sedative-, hypnotic-, or anxiolytic-induced mild neurocognitive disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced mild neurocognitive disorder, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced psychotic disorder
+Sedative-, hypnotic-, or anxiolytic-induced psychotic disorder, With mild use disorder
+Sedative-, hypnotic-, or anxiolytic-induced psychotic disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced psychotic disorder, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced sexual dysfunction
+Sedative-, hypnotic-, or anxiolytic-induced sexual dysfunction, With mild use disorder
+Sedative-, hypnotic-, or anxiolytic-induced sexual dysfunction, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced sexual dysfunction, Without use disorder
+Sedative-, hypnotic-, or anxiolytic-induced sleep disorder
+Sedative-, hypnotic-, or anxiolytic-induced sleep disorder, With mild use disorder
+Sedative-, hypnotic-, or anxiolytic-induced sleep disorder, With moderate or severe use disorder
+Sedative-, hypnotic-, or anxiolytic-induced sleep disorder, Without use disorder
+Selective mutism
+Separation anxiety disorder
+Sex counseling
+Sexual masochism disorder
+Sexual sadism disorder
+Sibling relational problem
+Sleep-related hypoventilation
+Social (pragmatic) communication disorder
+Social anxiety disorder (social phobia)
+Social exclusion or rejection
+Somatic symptom disorder
+Specific learning disorder
+Specific learning disorder, With impairment in mathematics
+Specific learning disorder, With impairment in reading
+Specific learning disorder, With impairment in written expression
+Specific phobia
+Specific phobia, Animal
+Specific phobia, Blood-injection-injury
+Specific phobia, Fear of blood
+Specific phobia, Fear of injections and transfusions
+Specific phobia, Fear of injury
+Specific phobia, Fear of other medical care
+Specific phobia, Natural environment
+Specific phobia, Other
+Specific phobia, Situational
+Speech sound disorder
+Spouse or partner abuse, Psychological, Confirmed
+Spouse or partner abuse, Psychological, Confirmed, Initial encounter
+Spouse or partner abuse, Psychological, Confirmed, Subsequent encounter
+Spouse or partner abuse, Psychological, Suspected
+Spouse or partner abuse, Psychological, Suspected, Initial encounter
+Spouse or partner abuse, Psychological, Suspected, Subsequent encounter
+Spouse or partner neglect, Confirmed
+Spouse or partner neglect, Confirmed, Initial encounter
+Spouse or partner neglect, Confirmed, Subsequent encounter
+Spouse or partner neglect, Suspected
+Spouse or partner neglect, Suspected, Initial encounter
+Spouse or partner neglect, Suspected, Subsequent encounter
+Stereotypic movement disorder
+Stimulant intoxication
+Stimulant use disorder
+Stimulant withdrawal
+Substance intoxication delirium
+Substance intoxication delirium
+Substance withdrawal delirium
+Substance withdrawal delirium
+Substance/medication-induced anxiety disorder
+Substance/medication-induced bipolar and related disorder
+Substance/medication-induced depressive disorder
+Substance/medication-induced major or mild neurocognitive disorder
+Substance/medication-induced obsessive-compulsive and related disorder
+Substance/medication-induced psychotic disorder
+Substance/medication-induced sexual dysfunction
+Substance/medication-induced sleep disorder
+Tardive akathisia
+Tardive dyskinesia
+Tardive dystonia
+Target of (perceived) adverse discrimination or persecution
+Tobacco use disorder
+Tobacco use disorder, Mild
+Tobacco use disorder, Moderate
+Tobacco use disorder, Severe
+Tobacco withdrawal
+Tobacco-induced sleep disorder
+Tobacco-induced sleep disorder, With moderate or severe use disorder
+Tourette’s disorder
+Transvestic disorder
+Trichotillomania (hair-pulling disorder)
+Unavailability or inaccessibility of health care facilities
+Unavailability or inaccessibility of other helping agencies
+Uncomplicated bereavement
+Unspecified alcohol-related disorder
+Unspecified amphetamine or other stimulant-related disorder
+Unspecified anxiety disorder
+Unspecified attention-deficit/hyperactivity disorder
+Unspecified bipolar and related disorder
+Unspecified caffeine-related disorder
+Unspecified cannabis-related disorder
+Unspecified cocaine-related disorder
+Unspecified communication disorder
+Unspecified delirium
+311	Unspecified depressive disorder
+Unspecified disruptive, impulse-control, and conduct disorder
+Unspecified dissociative disorder
+Unspecified elimination disorder
+Unspecified elimination disorder, With fecal symptoms
+Unspecified elimination disorder, With urinary symptoms
+Unspecified feeding or eating disorder
+Unspecified gender dysphoria
+Unspecified hallucinogen-related disorder
+Unspecified housing or economic problem
+Unspecified hypersomnolence disorder
+Unspecified inhalant-related disorder
+Unspecified insomnia disorder
+Unspecified intellectual disability (intellectual developmental disorder)
+Unspecified mental disorder
+Unspecified mental disorder due to another medical condition
+Unspecified neurocognitive disorder
+Unspecified neurodevelopmental disorder
+Unspecified obsessive-compulsive and related disorder
+Unspecified opioid-related disorder
+Unspecified other (or unknown) substance-related disorder
+Unspecified paraphilic disorder
+Unspecified personality disorder
+Unspecified phencyclidine-related disorder
+Unspecified problem related to social environment
+Unspecified problem related to unspecified psychosocial circumstances
+Unspecified schizophrenia spectrum and other psychotic disorder
+Unspecified sedative-, hypnotic-, or anxiolytic-related disorder
+Unspecified sexual dysfunction
+Unspecified sleep-wake disorder
+Unspecified somatic symptom and related disorder
+Unspecified stimulant-related disorder
+Unspecified tic disorder
+Unspecified tobacco-related disorder
+Unspecified trauma- and stressor-related disorder
+Upbringing away from parents
+Victim of crime
+Victim of terrorism or torture
+Voyeuristic disorder
+Wandering associated with a mental disorder
