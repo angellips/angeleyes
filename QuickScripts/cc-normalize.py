@@ -5,21 +5,21 @@ import re
 
 files = os.listdir('sample_images')
 
-pngs = []
-seeds = []
+all_modifiers = []
+all_seeds = []
 
 for x in files:
-    test = re.search('.*\d[-]\d+[-]\w+', x)
-    if test != None:
-        z = test.string.replace('.png', '')
-        z = z.replace(';', '')
-        z = z.split('-')
-        s_clean = z[:-1]
-        s_clean.pop(0)
-        seeds.append(s_clean)
-        z.pop(0)
-        z.pop(0)
-        z = z[0].split()
-        pngs.insert(0, z)
+    find = re.search('.*\d[-]\d+[-]\w+', x)
+    if find != None:
+        mods = find.string.replace('.png', '')
+        mods = mods.replace(';', '')
+        mods = mods.split('-')
+        seed_clean = mods[:-1]
+        seed_clean.pop(0)
+        all_seeds.append(seed_clean)
+        mods.pop(0)
+        mods.pop(0)
+        mods = mods[0].split()
+        all_modifiers.insert(0, mods)
 
 #    else: print("No PNG files found!"), need to modify this so it spits that if nothing happens and says completed if pngs != []
