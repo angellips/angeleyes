@@ -33,15 +33,23 @@ for m in range(10):
     most_common.append(most) # creates top 10 list of most used modifiers
 
 dp = "{"
+
 for x in most_common:
     dp = dp + f"{x}" + "|"
+
 dp = dp[:-1] + "}"
 
 count = 0
 for x in itertools.permutations(most_common):
     count += 1
 
+while not(count % 8) == False:
+    count += 1
+
+
+
 print(f"The following would generate {count} different variations in Dynamic Prompting:")
 print(dp)
+print(f"Settings of Batch Size: {batch_size} and Batch Count: 8 are needed to run all permutations")
 
 #    else: print("No PNG files found!"), need to modify this so it spits that if nothing happens and says completed if pngs != []
