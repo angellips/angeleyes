@@ -46,10 +46,8 @@ for x in itertools.permutations(most_common):
 while not(count % 8) == False:
     count += 1
 
+batch_size = int(count / 8)
 
-
-print(f"The following would generate {count} different variations in Dynamic Prompting:")
-print(dp)
-print(f"Settings of Batch Size: {batch_size} and Batch Count: 8 are needed to run all permutations")
-
-#    else: print("No PNG files found!"), need to modify this so it spits that if nothing happens and says completed if pngs != []
+print(f"\nThe following would generate {count} different variations in Dynamic Prompting:")
+print("\n" + dp)
+print(f"\nBatch Size: {batch_size} \nBatch Count: 8\n\nAre the settings needed to run all permutations.")
