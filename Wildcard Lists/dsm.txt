@@ -665,7 +665,7 @@ Problems related to other legal circumstances
 Problems related to release from prison
 Problems related to unwanted pregnancy
 Provisional tic disorder
-316	F54	Psychological factors affecting other medical conditions
+Psychological factors affecting other medical conditions
 Psychotic disorder due to another medical condition
 Psychotic disorder due to another medical condition, With delusions
 Psychotic disorder due to another medical condition, With hallucinations
