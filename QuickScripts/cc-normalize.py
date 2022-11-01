@@ -2,6 +2,8 @@
 
 import os
 import re
+from itertools import chain
+from collections import Counter
 
 files = os.listdir('sample_images')
 
@@ -20,6 +22,13 @@ for x in files:
         mods.pop(0)
         mods.pop(0)
         mods = mods[0].split()
-        all_modifiers.insert(0, mods)
+        all_modifiers.insert(0, mods) # nested list
+
+all_modifiers = (list(chain.from_iterable(all_modifiers))) # flatten nested list
+
+most_common = []
+for m in range(10):
+    most = (Counter(all_modifiers).most_common(10)[m][0])
+    most_common.append(most) # creates top 10 list of most used modifiers
 
 #    else: print("No PNG files found!"), need to modify this so it spits that if nothing happens and says completed if pngs != []
