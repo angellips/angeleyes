@@ -2,6 +2,7 @@
 
 import os
 import re
+import itertools
 from itertools import chain
 from collections import Counter
 
@@ -9,6 +10,7 @@ files = os.listdir('sample_images')
 
 all_modifiers = []
 all_seeds = []
+most_common = []
 
 for x in files:
     find = re.search('.*\d[-]\d+[-]\w+', x)
@@ -26,9 +28,20 @@ for x in files:
 
 all_modifiers = (list(chain.from_iterable(all_modifiers))) # flatten nested list
 
-most_common = []
 for m in range(10):
     most = (Counter(all_modifiers).most_common(10)[m][0])
     most_common.append(most) # creates top 10 list of most used modifiers
+
+dp = "{"
+for x in most_common:
+    dp = dp + f"{x}" + "|"
+dp = dp[:-1] + "}"
+
+count = 0
+for x in itertools.permutations(most_common):
+    count += 1
+
+print(f"The following would generate {count} different variations in Dynamic Prompting:")
+print(dp)
 
 #    else: print("No PNG files found!"), need to modify this so it spits that if nothing happens and says completed if pngs != []
