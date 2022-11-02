@@ -19,19 +19,22 @@ chunk_most = []
 for x in files:
     find = re.search('.*\d[-]\d+[-]\w+', x)                 # finds match in format of "00001-2259320428-green", inherently excludes all other files.
     if find != None:
-        mods = find.string.replace('.png', '')
-        c_mods = mods.split('-')
-        c_mods = c_mods[2:]
+        find = re.sub('(?<![a-z])-(?![a-z])', '_', x)
+        find = re.sub('(?<![a-z])-(?!\d)', '_', x)
+        mods = find.replace('.png', '')
+        c_mods = mods.split('_')
+        c_mods = c_mods[1:]
         chunk_modifiers.append(c_mods[0].split(";"))        # creates chunk-modifiers, e.g., "hello world; blue sky; cool dog", returns each ; separated chunk of text
         s_mods = mods.replace(';', '')
-        s_mods = s_mods.split('-')
-        s_mods = s_mods[2:]
+        s_mods = s_mods.split('_')
+        s_mods = s_mods[1:]
         s_mods = s_mods[0].split()
         single_modifiers.insert(0, s_mods)                  # creates single modifiers, e.g., "hello", "world", "blue", etc..
         mods = mods.split('-')
-        seed_clean = mods[:-1]
-        seed_clean = seed_clean[1:]
-        all_seeds.append(seed_clean)                                  # creates nested list of all seeds
+        seed_clean = mods[1:]
+        seed_clean = seed_clean[0].split('_')
+        seed_clean = seed_clean[:-1]
+        all_seeds.append(seed_clean)  # creates nested list of all seeds
 
 chunk_modifiers = (list(chain.from_iterable(chunk_modifiers)))        # flatten nested list
 single_modifiers = (list(chain.from_iterable(single_modifiers)))      # flatten nested list
@@ -69,7 +72,7 @@ for x in (map(str, prompts)):                           # alters truple elements
     x = x[:-1]
     x = x.replace("'", "")
     x = x.replace(",", "")
-    p_txt.write(x + "\n")
+    p_txt.write(x.strip() + "\n")
 
 p_txt.close()
 
@@ -98,6 +101,12 @@ while not(count % 8) == False:
 
 batch_size = int(count / 8) # batch num * batch count in Dynamic Prompting sets the *max* number of images to produce; count of img would remain same and is produced via combinatorial option.
 
-print(f"\nThe following would generate {count} different variations in Dynamic Prompting:")
+print(f"\nThe following will generate {count} prompt permutations in Dynamic Prompting:")
 print("\n" + dp)
-print(f"\nBatch Size: {batch_size} \nBatch Count: 8\n\nAre the settings needed to run all permutations.")
+print(f"\nThe following settings are needed to produce all permutations using the combinatorial option:\n\nBatch Size: {batch_size} \nBatch Count: 8")
+print("\nText files containing all prompt permutations for top used single and chunk modifiers generated!\nUse with Prompts from File extension!\n")
+
+# print(chunk_most)
+# print("\n HELLO WORLD \n")
+# print(chunk_modifiers)
+# print(all_seeds)
