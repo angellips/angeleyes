@@ -84,9 +84,8 @@ for x in (map(str, prompts)):                           # alters truple elements
     x = x[1:]
     x = x[:-1]
     x = x.replace("'", "")
-    x = x.replace(",", ";")
-    x = x.replace(" ", " ")
-    p_txt.write(x + "\n")                               # spits out lines wonky but can be ctrl-h fixed; need to fix in here
+    x = x.replace(", ", ";")
+    p_txt.write(x.strip() + "\n")
 
 p_txt.close()
 
