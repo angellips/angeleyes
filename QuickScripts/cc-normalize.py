@@ -46,8 +46,8 @@ for x in itertools.permutations(most_common):
 while not(count % 8) == False:
     count += 1
 
-batch_size = int(count / 8) # batch size * batch count in Dynamic Prompting sets the *max* number of images to produce; count of img would remain same and is produced via combinatorial option.
+batch_size = int(count / 8) # batch size * batch count in Dynamic Prompts sets the *max* number of images to produce; count of img would remain same and is produced via combinatorial option.
 
-print(f"\nThe following would generate {count} different variations in Dynamic Prompting:")
+print(f"\nThe following would generate {count} different variations in Dynamic Prompts:")
 print("\n" + dp)
 print(f"\nBatch Size: {batch_size} \nBatch Count: 8\n\nAre the settings needed to run all permutations.")
