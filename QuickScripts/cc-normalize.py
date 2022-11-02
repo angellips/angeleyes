@@ -16,7 +16,6 @@ single_most = []
 chunk_modifiers = []
 chunk_most = []
 
-
 for x in files:
     find = re.search('.*\d[-]\d+[-]\w+', x)                 # finds match in format of "00001-2259320428-green", inherently excludes all other files.
     if find != None:
@@ -26,8 +25,7 @@ for x in files:
         chunk_modifiers.append(c_mods[0].split(";"))        # creates chunk-modifiers, e.g., "hello world; blue sky; cool dog", returns each ; separated chunk of text
         s_mods = mods.replace(';', '')
         s_mods = s_mods.split('-')
-        s_mods.pop(0)
-        s_mods.pop(0)
+        s_mods = s_mods[2:]
         s_mods = s_mods[0].split()
         single_modifiers.insert(0, s_mods)                  # creates single modifiers, e.g., "hello", "world", "blue", etc..
         mods = mods.split('-')
@@ -41,8 +39,14 @@ single_modifiers = (list(chain.from_iterable(single_modifiers)))      # flatten 
 for m in range(5):
     s_most = (Counter(single_modifiers).most_common(5)[m][0])
     single_most.append(s_most)                                        # creates top 5 list of most used single modifiers
-    c_most = (Counter(chunk_modifiers).most_common(5)[m][0])
-    chunk_most.append(c_most)                                         # creates top 5 list of most used single modifiers
+    
+    if re.search('^\w', (Counter(chunk_modifiers).most_common(5)[m][0])) != None:   # fixes lack of space after c_mods = mods.split('-')
+        c_most = (Counter(chunk_modifiers).most_common(5)[m][0])
+        c_most = " " + c_most
+        chunk_most.append(c_most)
+    else:
+        c_most = (Counter(chunk_modifiers).most_common(5)[m][0])
+        chunk_most.append(c_most)
 
 dp = ""
 
