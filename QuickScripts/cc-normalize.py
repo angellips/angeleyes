@@ -28,8 +28,7 @@ for x in files:
         s_mods = mods.replace(';', '')
         s_mods = s_mods.split('_')
         s_mods = s_mods[1:]
-        s_mods = s_mods[0].split()
-        single_modifiers.insert(0, s_mods)                  # creates single modifiers, e.g., "hello", "world", "blue", etc..
+        single_modifiers.append(s_mods[0].split())                  # creates single modifiers, e.g., "hello", "world", "blue", etc..
         mods = mods.split('-')
         seed_clean = mods[1:]
         seed_clean = seed_clean[0].split('_')
