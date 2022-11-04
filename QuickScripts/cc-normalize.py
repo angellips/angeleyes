@@ -108,21 +108,27 @@ print("\nText files containing all prompt permutations for top used single and c
 
 # rough structure of sequence matching code for modifiers
 
-
 count = 0
-countt = 0
 
-var = ['red', 'blue', 'green', 'purple'] # just use the single_most or chunk_most  
+lst1 = []
+lst2 = []
+lst3 = []
 
-for x in var:
+for x in itertools.combinations(single_most, 2):
+    lst3.append(x)
+
+for x in lst3:
     count += 1
 
-    for x in range(count):
-        for z in var:
-                countt += 1
-                if countt < count:
-                        print(var[x], var[countt])
-                        print(SequenceMatcher(None, var[x], var[countt]).ratio())
+for x, y in lst3:
+    lst1.append(x)
+    lst2.append(y)
+
+for x in range(count):
+    print(lst1[x], lst2[x])
+    print(SequenceMatcher(None, lst1[x], lst2[x]).ratio())
+
+
 
 
 
