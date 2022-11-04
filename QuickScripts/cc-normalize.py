@@ -7,6 +7,7 @@ import re
 import itertools
 from itertools import chain
 from collections import Counter
+from difflib import SequenceMatcher
 
 files = os.listdir('sample_images')
 
@@ -104,6 +105,28 @@ print(f"\nThe following will generate {count} prompt permutations in Dynamic Pro
 print("\n" + dp)
 print(f"\nThe following settings are needed to produce all permutations using the combinatorial option:\n\nBatch Size: {batch_size} \nBatch Count: 8")
 print("\nText files containing all prompt permutations for top used single and chunk modifiers generated!\nUse with Prompts from File extension!\n")
+
+# rough structure of sequence matching code for modifiers
+
+
+count = 0
+countt = 0
+
+var = ['red', 'blue', 'green', 'purple'] # just use the single_most or chunk_most  
+
+for x in var:
+    count += 1
+
+    for x in range(count):
+        for z in var:
+                countt += 1
+                if countt < count:
+                        print(var[x], var[countt])
+                        print(SequenceMatcher(None, var[x], var[countt]).ratio())
+
+
+
+
 
 # print(chunk_most)
 # print("\n HELLO WORLD \n")

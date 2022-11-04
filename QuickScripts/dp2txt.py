@@ -45,9 +45,10 @@ def txt_gen(all_wildcards, count):
 		print(a_count)
 
 	for x in a_count:
+		print(x)
 		for x in all_wildcards[x]:
 			print(x)
-			print("hello world")
+			print("hello")
 
 			# maybe pass to a dict or something idk
 
