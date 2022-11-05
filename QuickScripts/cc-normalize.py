@@ -78,7 +78,7 @@ p_txt.close()
 
 count = 0
 prompts = []
-for x in itertools.permutations(chunk_most):
+for x in itertools.permutations(chunk_most):            # gets all permutations
     count += 1
     prompts.append(x)                                   
 
@@ -96,7 +96,7 @@ for x in (map(str, prompts)):                           # alters truple elements
 
 p_txt.close()
 
-while not(count % 8) == False:
+while not(count % 8) == False:                          # rounds up prompt count until batch_size will actually allow all images to be generated
     count += 1
 
 batch_size = int(count / 8) # batch num * batch count in Dynamic Prompting sets the *max* number of images to produce; count of img would remain same and is produced via combinatorial option.
@@ -108,38 +108,41 @@ print("\nText files containing all prompt permutations for top used single and c
 
 # rough structure of sequence matching code for modifiers
 
-count = 0
+seq_pcount = 0
 
-lst1 = []
-lst2 = []
-lst3 = []
-whatever = []
+seq_txt = []
+seq_float = []
+seq_pairs = []
+seq_nest = []
 
 for x in itertools.combinations(single_most, 2):
-    lst3.append(x)
+    seq_pairs.append(x)
 
-for x in lst3:
-    count += 1
+for x in seq_pairs:
+    seq_pcount += 1
 
-for x, y in lst3:
-    lst1.append(x)
-    lst2.append(y)
+for x, y in seq_pairs:
+    seq_txt.append(x)
+    seq_float.append(y)
 
-w_count = 0
+seq_ncount = 0
 
-for x in range(count):
-    # print(lst1[x], lst2[x])
-    y = [lst1[x], lst2[x], (SequenceMatcher(None, lst1[x], lst2[x]).ratio())]
-    whatever.append(y)
-    w_count += 1
+for x in range(seq_pcount):
+    # print(seq_txt[x], seq_float[x])
+    y = [seq_txt[x], seq_float[x], (SequenceMatcher(None, seq_txt[x], seq_float[x]).ratio())]
+    seq_nest.append(y)
+    seq_ncount += 1
 
-values = []
+g_values = []
+b_values = []
 
-for x in range(w_count):
+for x in range(seq_ncount):                            # sorts all txt and float data in seq_nest by similarity into 'good' and 'bad' values
+    if seq_nest[x][2] <= 0.1:
+        b_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
+    else: 
+        g_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
 
-    values.append([whatever[x][0] + " " + whatever[x][1], [whatever[x][2]]])
-
-print(values)
-
+print(g_values)
+print(b_values)
 
 # add sort and filtering (include this earlier in code during the single/chunk_most analysis)
