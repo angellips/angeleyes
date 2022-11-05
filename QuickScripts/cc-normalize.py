@@ -27,7 +27,7 @@ def seq_match(mod_most):
     seq_pairs = []
     seq_nest = []
 
-    for x in itertools.combinations(mod_most, 2):
+    for x in itertools.combinations(mod_most, 2):                                       # determines all combinations of 2 values within single_most and chunk_most
         seq_pairs.append(x)
 
     for x in seq_pairs:
@@ -48,13 +48,13 @@ def seq_match(mod_most):
     g_values = []
     b_values = []
 
-    for x in range(seq_ncount):                            # sorts all txt and float data in seq_nest by similarity into 'good' and 'bad' values
+    for x in range(seq_ncount):                                                         # sorts all txt and float data in seq_nest by similarity into 'good' and 'bad' values
         if seq_nest[x][2] <= 0.1:
             b_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
         else: 
             g_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
 
-    g_values = sorted(g_values, key = lambda x: x[1], reverse = True)
+    g_values = sorted(g_values, key = lambda x: x[1], reverse = True)                   # resorts value list into order of highest to lowest
     b_values = sorted(b_values, key = lambda x: x[1], reverse = True)
 
     print("-------------------------------------")
@@ -80,6 +80,48 @@ def seq_match(mod_most):
     #print(b_values)
 
 # add sort and filtering (include this earlier in code during the single/chunk_most analysis)
+
+def file_work(mod_most, mod_type):
+
+    print(mod_most, mod_type)
+
+    if mod_type == "single_most":
+        global dp
+        dp = ""
+        for x in mod_most:
+            dp = dp + f"{x}" + " "
+
+    global count
+    count = 0
+    prompts = []
+    for x in itertools.permutations(mod_most):
+        count += 1
+        prompts.append(x)
+
+    if mod_type == "single_most":
+        del_lines = open('s_prompts.txt', 'r+')                 # clear all lines from s_prompts.txt (if any) and then open for appending prompt variations
+    elif mod_type == "chunk_most":
+        del_lines = open('c_prompts.txt', 'r+')                 # clear all lines from s_prompts.txt (if any) and then open for appending prompt variations
+
+    del_lines.truncate(0)
+    del_lines.close()
+
+    if mod_type == "single_most":
+        p_txt = open("s_prompts.txt","a")
+    elif mod_type == "chunk_most":
+        p_txt = open("c_prompts.txt","a")
+
+    for x in (map(str, prompts)):                           # alters truple elements into strings and then cleans them up for writing to txt
+        x = x[1:]
+        x = x[:-1]
+        x = x.replace("'", "")
+        if mod_type == "single_most":
+            x = x.replace(",", "")
+        elif mod_type == "chunk_most":
+            x = x.replace(", ", ";")
+        p_txt.write(x.strip() + "\n")
+
+    p_txt.close()
 
 for x in files:
     find = re.search('.*\d[-]\d+[-]\w+', x)                 # finds match in format of "00001-2259320428-green", inherently excludes all other files.
@@ -115,50 +157,8 @@ for m in range(5):
         c_most = (Counter(chunk_modifiers).most_common(5)[m][0])
         chunk_most.append(c_most)
 
-dp = ""
-
-for x in single_most:
-    dp = dp + f"{x}" + " "
-
-count = 0
-prompts = []
-for x in itertools.permutations(single_most):
-    count += 1
-    prompts.append(x)
-
-del_lines = open('s_prompts.txt', 'r+')                 # clear all lines from s_prompts.txt (if any) and then open for appending prompt variations
-del_lines.truncate(0)
-del_lines.close()
-p_txt = open("s_prompts.txt","a")
-
-for x in (map(str, prompts)):                           # alters truple elements into strings and then cleans them up for writing to txt
-    x = x[1:]
-    x = x[:-1]
-    x = x.replace("'", "")
-    x = x.replace(",", "")
-    p_txt.write(x.strip() + "\n")
-
-p_txt.close()
-
-count = 0
-prompts = []
-for x in itertools.permutations(chunk_most):            # gets all permutations
-    count += 1
-    prompts.append(x)                                   
-
-del_lines = open('c_prompts.txt', 'r+')                 # clear all lines from c_prompts.txt (if any) and then open for appending prompt variations
-del_lines.truncate(0)
-del_lines.close()
-p_txt = open("c_prompts.txt","a")
-
-for x in (map(str, prompts)):                           # alters truple elements into strings and then cleans them up for writing to txt
-    x = x[1:]
-    x = x[:-1]
-    x = x.replace("'", "")
-    x = x.replace(", ", ";")
-    p_txt.write(x.strip() + "\n")
-
-p_txt.close()
+file_work(single_most, "single_most")
+file_work(chunk_most, "chunk_most")
 
 while not(count % 8) == False:                          # rounds up prompt count until batch_size will actually allow all images to be generated
     count += 1
