@@ -1,6 +1,4 @@
-# simple skeleton structure of script to analyze prompt texts and create normalized data for use in cc-study
-
-# c_prompts and s_prompts txt files must exist before running (fix later)
+# simple script to analyze prompt texts from filenames and create normalized data for use in cc-study
 
 import os
 import re
@@ -81,7 +79,10 @@ def seq_match(mod_most):
 
 def file_work(mod_most, mod_type):
 
-    print(mod_most, mod_type)
+    if os.path.exists('s_prompts.txt') == False:
+        f = open('s_prompts.txt', 'w')
+    elif os.path.exists('c_prompts.txt') == False:
+        f = open('c_prompts.txt', 'w')
 
     if mod_type == "single_most":
         global dp
