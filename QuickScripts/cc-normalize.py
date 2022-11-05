@@ -17,6 +17,70 @@ single_most = []
 chunk_modifiers = []
 chunk_most = []
 
+
+def seq_match(mod_most):
+
+    seq_pcount = 0
+
+    seq_txt = []
+    seq_float = []
+    seq_pairs = []
+    seq_nest = []
+
+    for x in itertools.combinations(mod_most, 2):
+        seq_pairs.append(x)
+
+    for x in seq_pairs:
+        seq_pcount += 1
+
+    for x, y in seq_pairs:
+        seq_txt.append(x)
+        seq_float.append(y)
+
+    seq_ncount = 0
+
+    for x in range(seq_pcount):
+        # print(seq_txt[x], seq_float[x])
+        y = [seq_txt[x], seq_float[x], (SequenceMatcher(None, seq_txt[x], seq_float[x]).ratio())]
+        seq_nest.append(y)
+        seq_ncount += 1
+
+    g_values = []
+    b_values = []
+
+    for x in range(seq_ncount):                            # sorts all txt and float data in seq_nest by similarity into 'good' and 'bad' values
+        if seq_nest[x][2] <= 0.1:
+            b_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
+        else: 
+            g_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
+
+    g_values = sorted(g_values, key = lambda x: x[1], reverse = True)
+    b_values = sorted(b_values, key = lambda x: x[1], reverse = True)
+
+    print("-------------------------------------")
+
+    seq_gvcount = 0
+    for x in g_values:
+        seq_gvcount += 1
+
+    for x in range(seq_gvcount):
+        print(f"{g_values[x][0]} == {g_values[x][1]}")
+
+    print("-------------------------------------")
+
+    seq_bvcount = 0
+    for x in b_values:
+        seq_bvcount += 1
+
+    for x in range(seq_bvcount):
+        print(f"{b_values[x][0]} == {b_values[x][1]}")
+
+    #print(g_values[0][0])
+    #print("BREAK")
+    #print(b_values)
+
+# add sort and filtering (include this earlier in code during the single/chunk_most analysis)
+
 for x in files:
     find = re.search('.*\d[-]\d+[-]\w+', x)                 # finds match in format of "00001-2259320428-green", inherently excludes all other files.
     if find != None:
@@ -106,43 +170,5 @@ print("\n" + dp)
 print(f"\nThe following settings are needed to produce all permutations using the combinatorial option:\n\nBatch Size: {batch_size} \nBatch Count: 8")
 print("\nText files containing all prompt permutations for top used single and chunk modifiers generated!\nUse with Prompts from File extension!\n")
 
-# rough structure of sequence matching code for modifiers
-
-seq_pcount = 0
-
-seq_txt = []
-seq_float = []
-seq_pairs = []
-seq_nest = []
-
-for x in itertools.combinations(single_most, 2):
-    seq_pairs.append(x)
-
-for x in seq_pairs:
-    seq_pcount += 1
-
-for x, y in seq_pairs:
-    seq_txt.append(x)
-    seq_float.append(y)
-
-seq_ncount = 0
-
-for x in range(seq_pcount):
-    # print(seq_txt[x], seq_float[x])
-    y = [seq_txt[x], seq_float[x], (SequenceMatcher(None, seq_txt[x], seq_float[x]).ratio())]
-    seq_nest.append(y)
-    seq_ncount += 1
-
-g_values = []
-b_values = []
-
-for x in range(seq_ncount):                            # sorts all txt and float data in seq_nest by similarity into 'good' and 'bad' values
-    if seq_nest[x][2] <= 0.1:
-        b_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
-    else: 
-        g_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
-
-print(g_values)
-print(b_values)
-
-# add sort and filtering (include this earlier in code during the single/chunk_most analysis)
+seq_match(single_most)
+seq_match(chunk_most)
