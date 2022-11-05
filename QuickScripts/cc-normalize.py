@@ -113,6 +113,7 @@ count = 0
 lst1 = []
 lst2 = []
 lst3 = []
+whatever = []
 
 for x in itertools.combinations(single_most, 2):
     lst3.append(x)
@@ -124,17 +125,21 @@ for x, y in lst3:
     lst1.append(x)
     lst2.append(y)
 
+w_count = 0
+
 for x in range(count):
-    print(lst1[x], lst2[x])
-    print(SequenceMatcher(None, lst1[x], lst2[x]).ratio())
+    # print(lst1[x], lst2[x])
+    y = [lst1[x], lst2[x], (SequenceMatcher(None, lst1[x], lst2[x]).ratio())]
+    whatever.append(y)
+    w_count += 1
+
+values = []
+
+for x in range(w_count):
+
+    values.append([whatever[x][0] + " " + whatever[x][1], [whatever[x][2]]])
+
+print(values)
 
 
-
-
-
-
-
-# print(chunk_most)
-# print("\n HELLO WORLD \n")
-# print(chunk_modifiers)
-# print(all_seeds)
+# add sort and filtering (include this earlier in code during the single/chunk_most analysis)
