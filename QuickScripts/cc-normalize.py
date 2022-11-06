@@ -1,3 +1,4 @@
+# v0.0.1
 # simple script to analyze prompt texts from filenames and create normalized data for use in cc-study
 
 import os
@@ -6,8 +7,11 @@ import itertools
 from itertools import chain
 from collections import Counter
 from difflib import SequenceMatcher
+from pprint import pprint
 
 files = os.listdir('sample_images')
+
+count = 0
 
 all_seeds = []
 single_modifiers = []
@@ -55,29 +59,29 @@ def seq_match(mod_most):
     g_values = sorted(g_values, key = lambda x: x[1], reverse = True)                   # resorts value list into order of highest to lowest
     b_values = sorted(b_values, key = lambda x: x[1], reverse = True)
 
-    print("-------------------------------------")
+    pprint("--------------------------------------------------------------------------")
 
     seq_gvcount = 0
     for x in g_values:
         seq_gvcount += 1
 
     for x in range(seq_gvcount):
-        print(f"{g_values[x][0]} == {g_values[x][1]}")
+        pprint(f"{g_values[x][0]} == {g_values[x][1]}")
 
-    print("-------------------------------------")
+    pprint("--------------------------------------------------------------------------")
 
     seq_bvcount = 0
     for x in b_values:
         seq_bvcount += 1
 
     for x in range(seq_bvcount):
-        print(f"{b_values[x][0]} == {b_values[x][1]}")
+        pprint(f"{b_values[x][0]} == {b_values[x][1]}")
 
     #print(g_values[0][0])
     #print("BREAK")
     #print(b_values)
 
-def file_work(mod_most, mod_type):
+def file_work(mod_most, mod_type, count):
 
     if os.path.exists('s_prompts.txt') == False:
         f = open('s_prompts.txt', 'w')
@@ -90,8 +94,6 @@ def file_work(mod_most, mod_type):
         for x in mod_most:
             dp = dp + f"{x}" + " "
 
-    global count
-    count = 0
     prompts = []
     for x in itertools.permutations(mod_most):
         count += 1
@@ -126,7 +128,7 @@ def file_search(files, single_modifiers, chunk_modifiers):
     for x in files:
         find = re.search('.*\d[-]\d+[-]\w+', x)                                         # finds match in format of "00001-2259320428-green", inherently excludes all other files.
         if find != None:
-            find = re.sub('(?<![a-z])-(?![a-z])', '_', x)
+            find = re.sub('(?<![a-z])-(?![a-z])', '_', x)                               # alters "-" in filename to "_" to ensure that any "-" in the modifiers do not get replaced
             find = re.sub('(?<![a-z])-(?!\d)', '_', x)
             mods = find.replace('.png', '')
             c_mods = mods.split('_')
@@ -149,7 +151,7 @@ def file_search(files, single_modifiers, chunk_modifiers):
         s_most = (Counter(single_modifiers).most_common(5)[m][0])
         single_most.append(s_most)                                                      # creates top 5 list of most used single modifiers
         
-        if re.search('^\w', (Counter(chunk_modifiers).most_common(5)[m][0])) != None:   # fixes lack of space after c_mods = mods.split('-')
+        if re.search('^\w', (Counter(chunk_modifiers).most_common(5)[m][0])) != None:   # fixes lack of space after c_mods = mods.split('_')
             c_most = (Counter(chunk_modifiers).most_common(5)[m][0])
             c_most = " " + c_most
             chunk_most.append(c_most)
@@ -158,8 +160,8 @@ def file_search(files, single_modifiers, chunk_modifiers):
             chunk_most.append(c_most)
 
 file_search(files, single_modifiers, chunk_modifiers)
-file_work(single_most, "single_most")
-file_work(chunk_most, "chunk_most")
+file_work(single_most, "single_most", count)
+file_work(chunk_most, "chunk_most", count)
 
 while not(count % 8) == False:                                                      # rounds up prompt count until batch_size will actually allow all images to be generated; # of img generated stays the same
     count += 1
