@@ -1,4 +1,4 @@
-# simple skeleton of dynamic prompts 2 txt for use in cc-study
+# simple skeleton of dynamic prompts 2 txt
 
 # TO-DO:
 # add better comments
