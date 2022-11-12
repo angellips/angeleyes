@@ -53,10 +53,10 @@ def seq_match(mod_most):
     g_values = []
     b_values = []
     for x in range(seq_ncount):                                                         # sorts all txt and float data in seq_nest by similarity into 'good' and 'bad' values
-        if seq_nest[x][2] <= 0.1:
-            b_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
+        if seq_nest[x][2] <= 0.1 or seq_nest[x][2] >= 0.9:
+            b_values.append([seq_nest[x][0] + " | " + seq_nest[x][1], [round(seq_nest[x][2], 4)]])
         else: 
-            g_values.append([seq_nest[x][0] + " " + seq_nest[x][1], [seq_nest[x][2]]])
+            g_values.append([seq_nest[x][0] + " | " + seq_nest[x][1], [round(seq_nest[x][2], 4)]])
     g_values = sorted(g_values, key = lambda x: x[1], reverse = True)                   # resorts value list into order of highest to lowest
     b_values = sorted(b_values, key = lambda x: x[1], reverse = True)
     pprint("--------------------------------------------------------------------------")
@@ -167,10 +167,10 @@ def file_search(files, config_set_all, single_mods, chunk_mods, single_modifiers
             count = 0
             for x in img_prompt_chunk:
                 count += 1
-            print(count)
+            #print(count)
             for x in range(count):
                 img_prompt_chunk[x] = re.sub('^ ', '', img_prompt_chunk[x])
-            print(img_prompt_chunk)
+            #print(img_prompt_chunk)
             config_set_all.append(img_config)
             single_mods.extend([img_prompt])
             chunk_mods.extend([img_prompt_chunk])
@@ -179,15 +179,24 @@ def file_search(files, config_set_all, single_mods, chunk_mods, single_modifiers
                     x = x.replace("(", "")
                     x = x.replace(")", "")
                     x = x.split()
+                    print(x)
+                    single_modifiers.append(x)
+                else:
+                    x = x.replace("(", "")
+                    x = x.replace(")", "")
+                    x = x.split()
                     single_modifiers.append(x)
 
 file_search(files, config_set_all, single_mods, chunk_mods, single_modifiers)
+# print("Searching for files, grabbing parameters ...")
 config_sort(config_set_all)
+# print("Capturing and matching modifiers...")
 misc_clean(chunk_modifiers, chunk_mods, single_mods, match_list)
 single_modifiers = list(chain.from_iterable(single_modifiers))
 match_list = (list(chain.from_iterable(match_list)))
 chunk_modifiers = (list(chain.from_iterable(chunk_modifiers)))
 most_common(single_most, chunk_most)
+# print("Writing files...")
 file_work(single_most, "single_most", count, prompts)
 file_work(chunk_most, "chunk_most", count, prompts)
 seq_match(single_most)
