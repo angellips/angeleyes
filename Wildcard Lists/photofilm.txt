@@ -24,8 +24,6 @@ Apollo
 Bubblegum
 Jelly
 Pacific
-Solar
-Stereo
 Daily Color
 P30
 Super Positive Film
@@ -40,10 +38,7 @@ Eastman Kodak Hi-Con 2369
 Eastman Kodak Hi-Fi 2374
 Emulsion X
 S 200 iso
-Film Love (Hearts) /Film Love (Shamrocks)
-FPP Dracula
-FPP WolfMan
-FPP Frankenstein
+Film Love
 Let It Snow
 Derev Pan 100
 Derev Pan 200
@@ -133,16 +128,11 @@ Lady Grey
 Potsdam 100
 Berlin 400
 Color Negative 100
-Color Tiger 200
 Color Negative 400
 Color Negative 800
 Redscale XR 50-200
 LomoChrome Metropolis
 LomoChrome Purple XR
-Lobster Redscale
-Peacock X-Pro
-SEAGULL 100
-SEAGULL 400
 Wolfen UN54
 Wolfen NP100
 Wolfen NP400
@@ -160,15 +150,12 @@ Rasp
 Volvox
 Texture
 Plexus
-Laser
 Streak
-Tesla I
-Tesla II
 Kosmos
 Nebula
 Kolor
-460 nm
-600 nm
+460nm
+600nm
 RPX 25
 RPX 100
 RPX 400
@@ -177,10 +164,7 @@ Retro 80S
 SuperPan 200
 Retro 400S
 Infrared 400
-Blackbird
 Paul & Reinhold
-Redbird
-CrossBird
 T-25
 T-42
 UN54

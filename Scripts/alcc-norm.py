@@ -31,6 +31,9 @@ model = []
 single_modifiers = []
 prompts = []
 
+
+# write function for writing seq_match of single and chunk prompts to txt files
+
 def seq_match(mod_most):
     seq_pcount = 0
     seq_txt = []
@@ -103,9 +106,9 @@ def file_work(mod_most, mod_type, count, prompts):
     p_txt.close()
 
 def most_common(single_most, chunk_most):
-    for x in Counter(chunk_modifiers).most_common(5):
+    for x in Counter(chunk_modifiers).most_common(4):
         chunk_most.append(x[0])
-    for x in Counter(single_modifiers).most_common(5):
+    for x in Counter(single_modifiers).most_common(4):
         single_most.append(x[0])
 
 def misc_clean(chunk_modifiers, chunk_mods, single_mods, match_list):
@@ -179,7 +182,6 @@ def file_search(files, config_set_all, single_mods, chunk_mods, single_modifiers
                     x = x.replace("(", "")
                     x = x.replace(")", "")
                     x = x.split()
-                    print(x)
                     single_modifiers.append(x)
                 else:
                     x = x.replace("(", "")
@@ -187,16 +189,16 @@ def file_search(files, config_set_all, single_mods, chunk_mods, single_modifiers
                     x = x.split()
                     single_modifiers.append(x)
 
+print("Searching for files, grabbing parameters ...")
 file_search(files, config_set_all, single_mods, chunk_mods, single_modifiers)
-# print("Searching for files, grabbing parameters ...")
 config_sort(config_set_all)
-# print("Capturing and matching modifiers...")
+print("Capturing and matching modifiers...")
 misc_clean(chunk_modifiers, chunk_mods, single_mods, match_list)
 single_modifiers = list(chain.from_iterable(single_modifiers))
 match_list = (list(chain.from_iterable(match_list)))
 chunk_modifiers = (list(chain.from_iterable(chunk_modifiers)))
 most_common(single_most, chunk_most)
-# print("Writing files...")
+print("Writing files...")
 file_work(single_most, "single_most", count, prompts)
 file_work(chunk_most, "chunk_most", count, prompts)
 seq_match(single_most)
