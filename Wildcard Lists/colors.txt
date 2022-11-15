@@ -375,7 +375,6 @@ Mode beige
 Mona Lisa
 Morning blue
 Moss green
-Mountain Meadow
 Mountbatten pink
 Mulberry
 Mustard
@@ -466,13 +465,10 @@ Psychedelic purple
 Puce
 Pullman Brown
 Purple
-Purple mountain majesty
 Purple navy
 Purple pizzazz
 Purple Plum
 Purpureus
-Queen blue
-Queen pink
 Quick Silver
 Quinacridone magenta
 Radical Red
@@ -485,14 +481,8 @@ Rebecca Purple
 Red
 Red-orange
 Red-purple
-Redwood
 Resolution blue
-Rhythm
-Rich black
-Rocket metallic
-Rose
 Rose bonbon
-Rose Dust
 Rose ebony
 Rose madder
 Rose pink
@@ -518,14 +508,9 @@ Saddle brown
 Safety orange
 Safety orange
 Safety yellow
-Saffron
-Sage
-Salmon
 Salmon pink
 Sand
-Sand dune
 Sandy brown
-Sap green
 Sapphire
 Sapphire blue
 Satin sheen gold
@@ -534,7 +519,6 @@ Schauss pink
 Screamin' Green
 Sea green
 Seance
-Seal brown
 Seashell
 Selective yellow
 Sepia
@@ -592,7 +576,6 @@ Tickle Me Pink
 Tiffany Blue
 Titanium yellow
 Tourmaline
-Tropical rainforest
 True Blue
 Trypan Blue
 Tufts blue
